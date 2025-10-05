@@ -9,6 +9,9 @@ import { ThemeProvider } from "@/hooks/use-theme";
 import ThemeToggle from "@/components/ThemeToggle";
 import Dashboard from "@/pages/Dashboard";
 import Games from "@/pages/Games";
+import LeaderboardPage from "@/pages/LeaderboardPage";
+import Challenges from "@/pages/Challenges";
+import Settings from "@/pages/Settings";
 import NotFound from "@/pages/not-found";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -18,7 +21,10 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Dashboard} />
+      <Route path="/leaderboard" component={LeaderboardPage} />
+      <Route path="/challenges" component={Challenges} />
       <Route path="/games" component={Games} />
+      <Route path="/settings" component={Settings} />
       <Route component={NotFound} />
     </Switch>
   );
