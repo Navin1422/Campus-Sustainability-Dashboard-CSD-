@@ -45,3 +45,6 @@ The dashboard visualizes total campus impact.
 🎓 Department-based challenges.
 📷 AI verification of activities.
 💚 IoT integration for live data from sensors.
+
+## UML Diagrams ##
+![image alt](https://github.com/Navin1422/Campus-Sustainability-Dashboard-CSD-/blob/ca8e3f0a06a13abbdd84d9fa40f6efb400b4f38d/git1.jpg)
