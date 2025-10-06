@@ -12,7 +12,8 @@ import Games from "@/pages/Games";
 import LeaderboardPage from "@/pages/LeaderboardPage";
 import Challenges from "@/pages/Challenges";
 import Settings from "@/pages/Settings";
-import NotFound from "@/pages/not-found";
+//import NotFound from "@/pages/AnalyticsPage";
+import AnalyticsPage from "@/pages/AnalyticsPage";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Flame } from "lucide-react";
@@ -21,11 +22,12 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Dashboard} />
+       <Route path="/analytics" component={AnalyticsPage} /> 
       <Route path="/leaderboard" component={LeaderboardPage} />
       <Route path="/challenges" component={Challenges} />
       <Route path="/games" component={Games} />
       <Route path="/settings" component={Settings} />
-      <Route component={NotFound} />
+      
     </Switch>
   );
 }
