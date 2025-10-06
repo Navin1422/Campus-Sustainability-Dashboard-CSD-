@@ -3,7 +3,7 @@ import { Zap, Droplets, Trash2, Recycle, Leaf } from "lucide-react";
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis, Cell } from "recharts";
 import React from 'react';
 
-// Mock Data for Charts
+
 const energyData = [
   { month: "Jan", consumption: 4500, savings: 240 },
   { month: "Feb", consumption: 4200, savings: 300 },
