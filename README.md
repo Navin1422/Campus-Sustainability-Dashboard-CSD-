@@ -26,10 +26,10 @@ Build awareness and collaboration across the campus community.
 **Tech Stack**
 Layer	Technology
 Frontend	React.js / HTML / CSS / JavaScript
-Backend	Node.js / Express.js (or Flask/Django if Python used)
-Database	MongoDB / MySQL / Firebase
+Backend	Node.js - Express.js 
+Database	MongoDB 
 Visualization	Chart.js / D3.js / Recharts
-Authentication	JWT / OAuth 2.0
+Authentication	JWT 
 
 **Sample Workflow**
 
